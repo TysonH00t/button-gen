@@ -1,0 +1,369 @@
+body{
+background-color: white;
+margin: 0px;
+}
+
+button{
+border: none;
+display: inline-block;
+}
+
+button:focus {outline:0;}
+h2 {
+color: black;
+}
+
+h3{
+color: white;
+font-size: 30px;
+margin: 0 0 10px 20px;
+border-left: 10px solid #36a1ff;
+padding: 15px 10px;
+width: 35%;
+}
+
+h4 {
+color: white;
+font-size: 40px;
+margin: 0 20px 20px 10px;
+border-bottom: 2px solid #36a1ff;
+width: 40%;
+line-height: 60px;
+}
+
+label {
+color: white;
+}
+
+form {
+padding: 30px;
+}
+
+.halfpage {
+width: 49%;
+color: black;
+display: inline-block;
+margin: 0;
+font-weight: 800;
+vertical-align: text-top;
+}
+
+.labelSpacing {
+margin: 0 0 10px 40px;
+width: 55%;
+}
+
+.dark{
+background: rgb(34, 34, 34);
+color: rgb(101, 255, 101);
+padding: 5px 30px;
+border-top: 5px solid rgb(99, 99, 99);
+}
+
+.column{
+background: rgb(99, 99, 99);
+width: 20px;
+padding-top: 26px;
+padding-bottom: 21px;
+float: left;
+text-align: center;
+color: rgb(143, 195, 255);
+}
+
+.column > p{
+margin: 0;
+}
+
+.buttondiv {
+width: 100%;
+height: 200px;
+text-align: center;
+background: linear-gradient(209deg, #000000, #ffffff);
+}
+
+.btnSpacing {
+height: 200px;
+width: 100%;
+}
+
+.bigletter{
+font-size: 120px;
+}
+
+#wholepage {
+padding: 50px 100px;
+background: linear-gradient(0deg, #153d60, #0b1e2e);
+}
+#wholeinner {
+background: rgba(255, 255, 255, 0.1);
+border-radius: 25px;
+}
+
+#btn1 {
+background: rgba(219, 219, 219, 1);
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#btnBackground{
+background-image: url("http://2.bp.blogspot.com/-Xmo26BMqg5Q/UihlqVwTwgI/AAAAAAAAAv0/V-Rrgm0V6oo/s1600/Top+10+best+Simple+Awesome+Background+Images+for+Your+Website+or+Blog3.jpg");
+height: 100%;
+width: 100%;
+}
+
+#btncss {
+    color: black;
+}
+
+.button1{
+height: 100%;
+width: 33%;
+display: block;
+float: left;
+text-align: center;
+}
+
+.button2{
+height: 100%;
+width: 33%;
+display: block;
+float: left;
+text-align: center;
+}
+
+.button3{
+height: 100%;
+width: 33%;
+display: block;
+float: left;
+text-align: center;
+}
+
+#button1{
+width: 275px;
+height: 70px;
+background: rgb(125, 0, 0);
+font-size: 20px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+border-style: solid;
+border-width: 5px;
+border-color: rgb(244, 166, 166);
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#button2{
+width: 275px;
+height: 70px;
+background: rgba(125, 0, 0, 0.5);
+font-size: 20px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+border-style: solid;
+border-width: 5px;
+border-color: rgb(244, 166, 166);
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#button3{
+width: 275px;
+height: 70px;
+background: rgba(125, 0, 0, 0);
+font-size: 20px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+border-style: solid;
+border-width: 5px;
+border-color: rgb(244, 166, 166);
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#button4{
+width: 210px;
+height: 75px;
+background: rgb(50, 72, 88);
+border-radius: 50px;
+font-size: 15px;
+color: rgb(255, 255, 255);
+font-style: italic;
+border-style: solid;
+border-width: 2px;
+border-color: rgb(153, 179, 198);
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#button5{
+width: 135px;
+height: 35px;
+background: rgba(50, 72, 88, 0.7);
+border-radius: 50px;
+color: rgb(255, 255, 255);
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#button6{
+width: 380px;
+height: 135px;
+background: linear-gradient(307deg, #324858, #ffffff);
+border-radius: 100px;
+font-size: 30px;
+font-weight: bold;
+border-style: solid;
+border-width: 4px;
+border-color: rgb(50, 72, 88);
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#button7{
+width: 180px;
+height: 60px;
+background: rgba(30, 77, 32, 0.2);
+border-radius: 15px;
+font-size: 20px;
+color: rgb(30, 77, 32);
+border-style: solid;
+border-width: 10px;
+border-color: rgb(30, 77, 32);
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+
+#button8{
+width: 180px;
+height: 60px;
+background: rgba(30, 77, 32, 0.5);
+font-size: 20px;
+color: rgb(255, 255, 255);
+border-style: solid;
+border-width: 7px;
+border-color: rgb(19, 49, 21);
+font-weight: bold;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+
+#button9{
+width: 180px;
+height: 60px;
+background: rgba(30, 77, 32, 0.3);
+border-radius: 25px;
+font-size: 25px;
+color: rgb(69, 179, 76);
+border-style: solid;
+border-width: 10px;
+border-color: rgb(30, 77, 32);
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#button10{
+width: 100%;
+height: 20%;
+background: rgba(89, 67, 36, 0.7);
+border-radius: 0px;
+font-size: 40px;
+color: rgb(217, 199, 176);
+font-weight: bold;
+margin-top: 5%;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#button11{
+width: 180px;
+height: 60px;
+background: rgba(82, 64, 15, 0.5);
+font-size: 20px;
+color: rgb(255, 255, 255);
+border-style: solid;
+border-width: 7px;
+border-color: rgb(56, 39, 3);
+font-weight: bold;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#b11{
+text-align: center;
+padding-bottom: 30px;
+}
+
+input[type=range] {
+-webkit-appearance: none;
+width: 100%;
+margin: 13.8px 0;
+}
+input[type=range]:focus {
+outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+width: 100%;
+height: 8.4px;
+cursor: pointer;
+background: #fff;
+border-radius: 1.3px;
+}
+input[type=range]::-webkit-slider-thumb {
+box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+border: 1px solid #000000;
+height: 36px;
+width: 16px;
+border-radius: 3px;
+background: #153d60;
+cursor: pointer;
+-webkit-appearance: none;
+margin-top: -14px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+background: #fff;
+}
+input[type=range]::-moz-range-track {
+width: 100%;
+height: 8.4px;
+cursor: pointer;
+background: #fff;
+border-radius: 1.3px;
+}
+input[type=range]::-moz-range-thumb {
+height: 36px;
+width: 16px;
+border-radius: 3px;
+background: #ffffff;
+cursor: pointer;
+}
+input[type=range]::-ms-track {
+width: 100%;
+height: 8.4px;
+cursor: pointer;
+background: transparent;
+border-color: transparent;
+color: transparent;
+}
+input[type=range]::-ms-thumb {
+height: 36px;
+width: 16px;
+border-radius: 3px;
+background: #ffffff;
+cursor: pointer;
+height: 8.4px;
+}

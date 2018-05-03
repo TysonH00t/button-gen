@@ -1,0 +1,204 @@
+<html !DOCTYPE>
+
+<head>
+	<title>Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+	<div id="btnBackground">
+		<div class="btnSpacing">
+			<div class="button1">
+				<button id="button1">Hello World</button>
+			</div>
+			<div class="button2">
+				<button id="button2">Hello World</button>
+			</div>
+			<div class="button3">
+				<button id="button3">Hello World</button>
+			</div>
+		</div>
+		<div class="btnSpacing">
+			<div class="button1">
+				<button id="button4">Hello World</button>
+			</div>
+			<div class="button2">
+				<button id="button5">Hello World</button>
+			</div>
+			<div class="button3">
+				<button id="button6">Hello World</button>
+			</div>
+		</div>
+		<div class="btnSpacing">
+			<div class="button1">
+				<button id="button7">Hello World</button>
+			</div>
+			<div class="button2">
+				<button id="button8">Hello World</button>
+			</div>
+			<div class="button3">
+				<button id="button9">Hello World</button>
+			</div>
+		</div>
+<a href="#buttongen" class="slideLink"><button id="button10">Make Your Own --></button></a>
+	</div>
+	<a id="buttongen"></a>
+	<div class="buttondiv">
+		
+		<button id="btn1">
+			<span id="btnTxt">Hello World</span>
+		</button>
+	</div>
+<div id="wholepage">
+	<div id="wholeinner">
+		<form>
+			<h4><span class="bigletter">B</span>utton</h4>
+			<div class="halfpage">
+			<h3>Size</h3>
+			<div class="labelSpacing">
+				<label>Percent:
+					<input name="size" id="percent" type="radio" onclick="percentOrPixel(this)">
+				</label>
+				<label>Pixels:
+					<input name="size" id="pixels" type="radio" onclick="percentOrPixel(this)">
+				</label>
+				<div id="pixelDrop" style="display: none;">
+					<label>Width:
+						<input type="range" onInput="btnWidth(this);" min="1" max="320">
+					</label>
+					<label>Height:
+						<input type="range" onInput="btnHeight(this);" min="1" max="320">
+					</label>
+				</div>
+				<div id="percentDrop" style="display: none;">
+					<label>Width:
+						<input type="range" onInput="btnWidth(this);" min="1" max="20">
+					</label>
+					<label>Height:
+						<input type="range" onInput="btnHeight(this);" min="1" max="20">
+					</label>
+				</div>
+			</div>
+			<h3>Color</h3>
+			<div class="labelSpacing">
+				<label>No Background:
+					<input name="color" id="noBack" type="radio" onclick="noBackground(this);solidOrGradient(this)">
+				</label>
+				<label>Solid:
+					<input name="color" id="solid" type="radio" onclick="solidOrGradient(this);">
+				</label>
+				<label>Gradient:
+					<input name="color" id="gradient" type="radio" onclick="solidOrGradient(this);">
+				</label>
+				<div id="solidDrop" style="display: none;">
+					<label>Background Color:
+						<input type="color" onInput="changeBackgroundColor(this);">
+					</label><br>
+					<label>Opacity:
+						<input id="btnOpacity" onInput="buttonOpacity(this)" type="range" min="0" max="10">
+					</label>
+				</div>
+				<div id="gradientDrop" style="display: none;">
+					<label>Background Gradient:
+						<input id="grad1" type="color" onInput="btnGradient();">
+					</label><br>
+					<label>Background Gradient:
+						<input id="grad2" type="color" onInput="btnGradient();">
+					</label><br>
+					<label>Gradient Angle:
+						<input type="range" min="0" max="360" onInput="gradientAngle(this);">
+					</label>
+				</div>
+			</div>
+			<h3>Shape</h3>
+			<div class="labelSpacing">
+				<label>Radius:
+					<input type="range" onInput="borderCurve(this);">
+				</label>
+			</div>
+		</div>
+		<div class="halfpage">
+			<h3>Font</h3>
+			<div class="labelSpacing">
+				<label>Font Color:
+					<input type="color" onInput="changeFontColor(this);">
+				</label>
+				<label>Font Size:
+					<input type="number" onInput="textSize(this);" min="0">
+				</label>
+				<label>Bold:
+					<input id="bText" type="checkbox" onclick="boldText();">
+				</label>
+				<label>Italics:
+					<input id="iText" type="checkbox" onclick="italicText();">
+				</label>
+			</div>
+			<h3>Border</h3>
+			<div class="labelSpacing">
+				<label>Border:
+					<input id="bBtn" type="checkbox" onclick="borderBtn(bBtn);">
+				</label>
+				<div id="borderDropdown" style="display:none">
+					<label>Border Width:
+						<input type="number" onInput="borderWidth(this);" min="0">
+					</label><br>
+					<label>Border Color:
+						<input id="btnColor" type="color" onInput="borderColor(this)">
+					</label>
+				</div>
+			</div>
+		</div>
+
+		</form>
+		<div id="b11"><a href="#css"><button id="button11">View CSS --></button></a></div>
+		</div>
+		</div>
+		<div class="column">
+			<div id="css"></div>
+			<p>1
+				<br>2
+				<br>3
+				<br>4
+				<br>5
+				<br>6
+				<br>7
+				<br>8
+				<br>9
+				<br>10
+				<br>11
+				<br>12
+				<br>13</p>
+		</div>
+		<div class="dark">
+			<p>.button {
+				<br>
+				<span id="bWidth"></span>
+				<br>
+				<span id="bHeight"></span>
+				<br>
+				<span id="bBackground"></span>
+				<br>
+				<span id="bRadius"></span>
+				<br>
+				<span id="bTextSize"></span>
+				<br>
+				<span id="bColor"></span>
+				<br>
+				<span id="bBold"></span>
+				<br>
+				<span id="bItalic"></span>
+				<br>
+				<span id="bBorderStyle"></span>
+				<br>
+				<span id="bBorderWidth"></span>
+				<br>
+				<span id="bBorderColor"></span>
+				<br> }
+		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
+
+<!-- use heroku to deploy website app -->
